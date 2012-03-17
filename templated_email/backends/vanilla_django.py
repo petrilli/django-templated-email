@@ -147,5 +147,5 @@ class TemplateBackend:
 
         e.send(fail_silently)
         
-        return e.extra_headers.get('Message-Id',None)
+        return e
 
